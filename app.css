@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    background: blue;
+    border-radius: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    
+    padding: 20px;
+}
+
+
+.pixel {
+    width: 5px;
+    height: 10px;
+    border-radius: 0px;
+    border: 1px solid grey;
+}
+
+.color-picker {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+
+
